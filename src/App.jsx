@@ -309,35 +309,7 @@ export default function App() {
         </main>
       )}
 
-      {/* Floating Instagram Photo Uploader Trigger */}
-      <button
-        onClick={() => setIsImageManagerOpen(true)}
-        style={{
-          position: 'fixed',
-          bottom: '24px',
-          left: '24px',
-          zIndex: 40,
-          background: 'rgba(28, 22, 24, 0.94)',
-          backdropFilter: 'blur(8px)',
-          color: '#FFFFFF',
-          border: '1px solid rgba(255,255,255,0.2)',
-          padding: '10px 16px',
-          borderRadius: 'var(--radius-xs)',
-          fontSize: '0.74rem',
-          fontWeight: 500,
-          letterSpacing: '0.1em',
-          textTransform: 'uppercase',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          boxShadow: '0 8px 24px rgba(0,0,0,0.25)',
-          transition: 'all var(--transition-fast)'
-        }}
-        title="Upload photos from Instagram"
-      >
-        <Camera size={14} style={{ color: 'var(--c-gold)' }} />
-        <span>Manage / Upload Brand Photos</span>
-      </button>
+
 
       {/* 11. Footer */}
       <Footer
